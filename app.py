@@ -48,8 +48,6 @@ if azure_openai_endpoint and azure_openai_key:
         api_version="2024-05-01-preview",
         azure_endpoint=azure_openai_endpoint,
     )
-else:
-    client = openai.OpenAI(api_key=openai_api_key)
 
 
 class EventHandler(AssistantEventHandler):
