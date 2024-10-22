@@ -21,7 +21,6 @@ def str_to_bool(str_input):
 
 
 # Load environment variables
-openai_api_key = os.environ.get("OPENAI_API_KEY")
 instructions = os.environ.get("RUN_INSTRUCTIONS", "")
 enabled_file_upload_message = os.environ.get(
     "ENABLED_FILE_UPLOAD_MESSAGE", "Upload a file"
