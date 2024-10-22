@@ -290,7 +290,6 @@ def main():
     # Check if multi-agent settings are defined
     multi_agents = os.environ.get("OPENAI_ASSISTANTS", None)
     single_agent_id = os.environ.get("ASSISTANT_ID", None)
-    single_agent_title = os.environ.get("ASSISTANT_TITLE", "Assistants API UI")
 
     if (
         authentication_required
